@@ -42,10 +42,10 @@ module.exports = {
     'class-methods-use-this': 0,
     'arrow-parens': 0,
     'comma-dangle': ['error', {
-      'arrays': 'only-multiline',
-      'objects': 'only-multiline',
-      'imports': 'only-multiline',
-      'exports': 'only-multiline',
+      'arrays': 'never',
+      'objects': 'never',
+      'imports': 'never',
+      'exports': 'never',
       'functions': 'never',
     }],
     'react/forbid-prop-types': 'off',
@@ -58,5 +58,13 @@ module.exports = {
         'render'
       ]
     }],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ]
   }
-};
+}
